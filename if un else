@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+int main() {
+	/*int catage, dogsage;
+	cin >> catage>> dogsage;
+
+	if (catage > 0 && catage <= 30) { cout << "OK! ^^" << endl; }
+	else cout << "unrealistic cat's age." << endl;
+
+	if (dogsage > 0 && dogsage <= 30) { cout << "OK! ^^" << endl; }
+	else cout << "unrealistic dod's age." << endl;
+	cout << "Exit.";*/
+
+
+	/*int rate, age, height;
+	cin >> rate >> age >> height;
+
+	if (rate > 0 && rate <= 11) { cout << "cool!" << endl; }
+	else cout << "Not realistic..." << endl;
+
+	if (age > 0 && age <=20) { cout << "okay!" << endl; }
+	else cout << "Unrealistic one" << endl;
+
+	if (height > 0 && height <= 200) { cout << "omg!" << endl; }
+	else cout << "Unrealistic height!" << endl;*/
+
+
+	/*int age = 1;
+	string p = "457", pin;
+	cin >> pin;
+	if (p == pin) { cout << "ok!" << endl << age; }
+	else cout << "wrong password!";*/
+
+
+	int age = 35;
+	string p = "123", pin;
+	string l = "me!", username;
+	cout << "------------------" << endl << "Login:";
+	cin >> username;
+
+	cout << "Password:";
+	cin >> pin;
+
+	if (p == pin && l == username) { cout << endl << "---------------" << endl << "okay! here's your age:" << endl << age; }
+	else cout << "---------------" << endl << "wrong password or username. try again!";
+}
